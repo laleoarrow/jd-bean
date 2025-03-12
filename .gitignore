@@ -1,0 +1,19 @@
+# 忽略包含个人隐私信息的文件
+cookies.txt
+jd_cookies.json
+
+# 日志文件
+*.log
+
+# 输出文件
+output.txt
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/ 

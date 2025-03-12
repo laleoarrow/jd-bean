@@ -1,0 +1,14 @@
+# 示例cookie文件格式（请不要直接使用此文件）
+# 这是一个示例文件，展示如何正确提供京东cookie信息
+# 使用方法：
+# 1. 复制此文件并重命名为"cookies.txt"
+# 2. 按照以下格式粘贴从浏览器开发者工具中获取的cookie表格内容
+# 3. 请确保包含pt_key、pt_pin等关键cookie（如果有）
+
+# cookie表格格式示例（从浏览器复制的cookie表格）:
+名称	值	域	路径	过期时间/最大年龄	大小	HttpOnly	安全	SameSite	SameParty	优先级
+pt_key	XXXXXXXXXX	.jd.com	/	2026-03-07T06:12:10.000Z	146	✓	✓	None			Medium	
+pt_pin	jd_XXXXXXXXXX	.jd.com	/	2026-03-07T06:12:10.000Z	30	✓	✓	None			Medium	
+
+# 注意：cookies.txt文件包含个人账户信息，已被添加到.gitignore中。
+# 请勿将其分享或提交到代码库中，以保护您的账户安全。 
